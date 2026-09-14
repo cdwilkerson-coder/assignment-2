@@ -6,3 +6,178 @@
   This stylesheet contains the layout and visual styling for the
   Campus Event Guide website.
 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    background-color: #0f2044;
+    color: white;
+    padding: 1.5rem 2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #0f2044;
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+#events {
+    margin-bottom: 3rem;
+}
+
+#event-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.event-card {
+    padding: 1.25rem;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+.event-card img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.event-card:first-child {
+    grid-column: span 2;
+}
+
+#event-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+#event-description {
+    padding: 1.5rem;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+#event-sidebar {
+    padding: 1.5rem;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+#event-sidebar .button {
+    margin-top: 1rem;
+}
+
+#related-events {
+    margin-bottom: 3rem;
+}
+
+#related-event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.related-event {
+    flex: 1 1 250px;
+    padding: 1.25rem;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+/* Tablet layout */
+@media (max-width: 900px) {
+    #event-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .event-card:first-child {
+        grid-column: span 2;
+    }
+
+    #event-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    #event-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .event-card:first-child {
+        grid-column: span 1;
+    }
+
+    #related-event-list {
+        flex-direction: column;
+    }
+}
+  
