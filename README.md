@@ -47,6 +47,15 @@ The images used in this project came from UNC Greensboro websites.
 - `game-night.jpg` - UNC Greensboro Esports  
   Source: https://esports.uncg.edu/uncg-gaming-and-esports-club/
 
+  - `basketball.jpg` - UNC Greensboro Recreation & Wellness
+  Source: https://recwell.uncg.edu/competitive-sports/im/
+
+- `music-festival.jpg` - UNC Greensboro
+  Source: https://www.uncg.edu/faculty-staff/downtown-rhythm-nc-folk-fest/
+
+- `coding-workshop.jpg` - UNC Greensboro Computer Science
+  Source: https://www.uncg.edu/degrees/computer-science-b-s/
+
 ## Testing
 
 I tested both `index.html` and `event.html` using Live Preview in VS Code. I checked the navigation links, images, event cards, Grid layouts, Flexbox layouts, and responsive design. I also tested the pages at different screen widths to make sure the content remained readable.
