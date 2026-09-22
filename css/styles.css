@@ -190,4 +190,37 @@ footer nav ul {
         flex-direction: column;
     }
 }
-  
+
+.saved-event {
+    border: 3px solid #f0b323;
+    background-color: #fff8e6;
+}
+
+.save-button {
+    margin-left: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: 2px solid #0f2044;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #0f2044;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.saved-events {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-top: 2px solid #0f2044;
+}
+
+.saved-events ul {
+    padding-left: 1.5rem;
+}
+
+.saved-events li {
+    margin-bottom: 1rem;
+}
+
+.saved-events li p {
+    margin-top: 0.5rem;
+}
