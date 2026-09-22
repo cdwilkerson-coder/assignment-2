@@ -1,5 +1,9 @@
 # Spartan Campus Events
 
+## Live Website
+
+[View the deployed website](https://cdwilkerson-coder.github.io/assignment-2/)
+
 ## Project Description
 
 Spartan Campus Events is a two-page website that helps UNCG students find events happening on campus. The purpose of the website is to give students an easy way to view upcoming events and learn more about a featured event. The main audience for this website is UNCG students.
